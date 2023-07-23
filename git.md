@@ -131,3 +131,16 @@ git push -u origin master //把本地库的所有内容推送到远程库上
 
   ![image-20230721233940837](assets/image-20230721233940837.png)
 
+# 如果你先有项目，再上传
+
+只需要在你的项目文件夹下打开Git Bash
+
+然后初始化
+
+然后连接到远程仓库
+
+```bash
+git remote add origin git@github.com:wangshuaikun2021/mytricks.git
+```
+
+接下来跟git clone下来的操作一样了
